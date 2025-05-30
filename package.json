@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "sudo bundle exec jekyll serve",
+    "css": "npx @tailwindcss/cli -i ./assets/css/global.css -o ./assets/css/input.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.8",
+    "tailwindcss": "^4.1.8"
+  }
+}
