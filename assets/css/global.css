@@ -1,1 +1,41 @@
 @import "tailwindcss";
+
+@theme {
+
+  --font-sans: system-ui, ui-sans-serif, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@layer base {
+
+  body {
+    /* @apply list-disc list-inside; */
+  }
+
+  h1 {
+    @apply text-3xl font-extrabold mb-3;
+  }
+
+  h2 {
+    @apply text-2xl font-semibold mb-3;
+  }
+
+  p{
+    @apply mb-2;
+  }
+
+  ul, ol {
+    @apply mb-3 list-inside;
+  }
+
+  ul {
+    @apply list-disc;
+  }
+
+  ol {
+    @apply list-decimal;
+  }
+
+  a {
+    @apply text-blue-500 hover:text-blue-700 underline;
+  }
+} 

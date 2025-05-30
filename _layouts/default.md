@@ -4,16 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | {{ site.title }}</title>
-  <!-- <link rel="stylesheet" href="/assets/css/input.css"> -->
-  <!-- <link rel="stylesheet" href="/assets/css/style.css"> -->
+  <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
   {% include header.html %}
-  <div class="flex">
-    <main class="container mx-auto">
-      {{ content }} 
-    </main>
-  </div>
+
+  <main class="container mx-auto px-4 my-3">
+    {{ content }} 
+  </main>
   
   {% include footer.html %}
 </body>
