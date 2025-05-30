@@ -7,7 +7,7 @@
   <!-- <link rel="stylesheet" href="/assets/css/input.css"> -->
   <!-- <link rel="stylesheet" href="/assets/css/style.css"> -->
 </head>
-<body class=>
+<body>
   {% include header.html %}
   <div class="flex">
     <main class="container mx-auto">
