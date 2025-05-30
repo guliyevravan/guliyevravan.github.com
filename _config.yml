@@ -1,4 +1,5 @@
 title: Ravan Guliyev
 description: Full Stack Web Developer
 markdown: kramdown
-theme: minima
+remote_theme: pages-themes/cayman
+# theme: dinky
